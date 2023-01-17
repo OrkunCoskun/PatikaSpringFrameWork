@@ -1,5 +1,5 @@
 package com.orkuncoskun.utils;
 
 public class PermaLink {
-    //GITHUB :
+    //GITHUB : https://github.com/OrkunCoskun/PatikaSpringFrameWork
 }
