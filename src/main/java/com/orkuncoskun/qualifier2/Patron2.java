@@ -1,4 +1,4 @@
-package com.orkuncoskun.qualifier;
+package com.orkuncoskun.qualifier2;
 
 @QualifierMultiple
 public class Patron2 implements PatronInterface {

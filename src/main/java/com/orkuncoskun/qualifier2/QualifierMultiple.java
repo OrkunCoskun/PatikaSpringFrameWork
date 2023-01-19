@@ -1,4 +1,4 @@
-package com.orkuncoskun.qualifier;
+package com.orkuncoskun.qualifier2;
 
 import javax.inject.Qualifier;
 import java.lang.annotation.Documented;

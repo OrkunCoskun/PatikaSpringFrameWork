@@ -1,4 +1,4 @@
-package com.orkuncoskun.qualifier;
+package com.orkuncoskun.qualifier2;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
