@@ -8,14 +8,13 @@ import javax.inject.Named;
 @ApplicationScoped
 public class Calisan {
 
-    //@Inject olması gerek ama hata veriyor
-    //@Inject
+
+    @Inject
     private PatronInterface patronInterface;
 
     //Parametresiz constructor
     public Calisan() {
-        //@Inject ekleyince burayı yoruma alabilirsin
-        patronInterface = new Patron();
+        //patronInterface = new Patron();
     }
 
     public String getData(String data) {
