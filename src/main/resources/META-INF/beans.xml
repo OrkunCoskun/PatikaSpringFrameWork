@@ -14,4 +14,9 @@
     <interceptors>
         <class>com.orkuncoskun.aop.interceptor.InterceptorRealWork</class>
     </interceptors>
+
+    <!--decorator-->
+    <decorators>
+        <class>com.orkuncoskun.aop.decorator.EvDecorator</class>
+    </decorators>
 </beans>
