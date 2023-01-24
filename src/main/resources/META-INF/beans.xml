@@ -4,8 +4,14 @@
        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
        bean-discovery-mode="all">
 
+    <!--alternative-->
     <alternatives>
 <!--        <class>com.orkuncoskun.alternative.Patron1</class>-->
         <class>com.orkuncoskun.alternative.Patron2</class>
     </alternatives>
+
+    <!--interceptor-->
+    <interceptors>
+        <class>com.orkuncoskun.aop.interceptor.InterceptorRealWork</class>
+    </interceptors>
 </beans>
